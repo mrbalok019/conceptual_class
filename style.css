@@ -1,0 +1,86 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.firstdiv{
+background-image:url("images/abc.jpg");
+background-size: cover;
+background-position: bottom;
+height: 75vh;
+margin-top: none;
+border-top: none;
+padding-top: none;
+border-radius: 10% 0% 10%;
+ 
+}
+
+.headingdiv{
+    /* background-image: url("images/looneyart.gif"); */
+    background-size: cover;
+    width: 50%;
+    margin: auto ;    
+    text-align: center;
+    padding-top: 25px;
+    text-align: center;
+    vertical-align: center;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-style: italic;
+    
+}
+
+.flex{
+
+display: flex;
+width: 80%;
+margin:auto;
+margin-top: 25px;
+/* border: 5px solid blue; */
+flex-direction: row;
+height: 150 px;
+
+}
+.imgflex{
+    margin: 10px;
+    border: 5px solid black;
+    flex: 33%;
+    width: auto;
+    height: auto;
+}
+.imgflex img{
+    height: 100%;
+    width: 100%;
+}
+.info{
+    
+    border: 5px solid orangered;
+    background-image:linear-gradient(red,orange,yellow ) ;
+    max-width: 1000px;
+    height:fit-content;
+    width:75%;
+    margin : auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    box-shadow: 25px 25px brown;
+}
+
+.info h3{
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: oblique;
+    margin-top: 5px;
+    text-shadow: 5px 5px black;
+}
+.info p{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-align: center;
+    text-wrap: 10%;
+    font-size: 25px;
+}
