@@ -1,0 +1,15 @@
+nav > ul > li {
+display: inline;
+margin-right: 0%;
+width:100%;
+
+}
+nav li>a{
+    text-decoration: none;
+}
+article h1,time{
+color: blue;
+}
+article figcaption{
+    text-align: center;
+}
